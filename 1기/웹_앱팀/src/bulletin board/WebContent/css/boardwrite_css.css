@@ -1,0 +1,170 @@
+.table {
+   border-collapse: collapse;
+   border: 1px solid #ddd;
+}
+
+.table th {
+   color: #343A40;
+   background: #D6EEF2;
+   text-align: center;
+}
+
+.table th, .table td {
+   padding: 10px;
+   border: 1px solid #ddd;
+}
+
+.table th:first-child, .table td:first-child {
+   border-left: 0;
+}
+
+.table td:last-child {
+   border-right: 0;
+}
+
+.table tr td:first-child {
+   text-align: center;
+}
+
+.table tr th:last-child {
+   text-align: left;
+}
+
+/*---------------------modify table styles---------------------*/
+.tablemd {
+   border-collapse: collapse;
+   width: 80%;
+   border: 1px solid #ddd;
+}
+
+.tablemd th {
+   color: #343A40;
+   background: #D6EEF2;
+}
+
+.tablemd th, .table td {
+   padding: 10px;
+   border: 1px solid #ddd;
+}
+
+.tablemd th:first-child, .table td:first-child {
+   border-left: 0;
+   text-align: center;
+   width: 100px;
+}
+
+.tablemd tr td:first-child {
+   text-align: center;
+   border: 1px solid #ddd;
+   height: 25px;
+}
+
+.tablemd tr:nth-child(2) td:last-child {
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #ddd;
+}
+
+.tablemd tr:last-child td:last-child {
+   padding: 20px;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #ddd;
+}
+
+.tablemd tr th:last-child {
+   text-align: left;
+}
+
+/*------------*/
+button {
+   border: 0.5px solid #343A40;
+   width: 150px;
+   margin: 10px;
+   font-weight: 400;
+   color: #343A40;
+   padding: 8px 25px;
+   cursor: pointer;
+   border-radius: 100px;
+}
+
+.btnB {
+   border-radius: 100px;
+   margin-bottom: 20px;
+   margin-right: 10px;
+}
+
+.btn1 {
+   border-radius: 100px;
+   margin-bottom: 20px;
+   margin-right: 10px;
+   float: right;
+}
+
+.fieldset {
+   border: 0px solid #343A40;
+   padding: 10px;
+   margin: 10px;
+}
+
+textarea {
+   width: 100%;
+   height: 350px;
+   border: 0px;
+   resize: none;
+}
+
+select {
+   width: 300px;
+   height: 30px;
+   font-family: inherit;
+   background:
+      url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg)
+      no-repeat 95% 40%;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border: 0.5px solid #343A40;
+   border-radius: 10px;
+}
+
+select::-ms-expand {
+   /* for IE 11 */
+   display: none;
+}
+
+fieldset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.board_position {
+   border: 0px solid #444444;
+   width: 55%;
+}
+
+.write_position {
+   border: 1px solid #444444;
+}
+
+.title {
+   background: #D6EEF2;
+   height: 30px;
+}
+
+.mar {
+   margin-bottom: 10px;
+   /*margin-left: 10px;
+   margin-left: 170px; */
+}
+
+div {
+   border: 2px;
+}
+
+.button_location{
+   /* margin-left:500px; */
+   float:right;
+}
+/* </style> */

@@ -1,0 +1,100 @@
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	color: white;
+	background: black;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.head {
+	background: black;
+	color: white;
+	font-size: 20px;
+	border: 0px;
+}
+
+body {
+	padding-top: 40px;
+	background: white;
+	height: 100%;
+}
+
+.container {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.list {
+	border: 1px solid;
+	padding: 10px;
+	justify-content: center;
+	display: inline-block;
+	box-sizing: content-box;
+}
+
+.mem_ok {
+	width: 80px;
+	height: 40px;
+	background: skyblue;
+	border: none;
+	border-radius: 10px;
+	margin-top: 15px;
+	text_align: center;
+}
+
+.mem_no {
+	width: 80px;
+	height: 40px;
+	color: white;
+	background: black;
+	border: none;
+	border-radius: 10px;
+	margin-top: 15px;
+	text_align: center;
+}
+
+.title_name {
+	margin-top: 20px;
+}
+
+.title {
+	width: 500px;
+}
+
+.a {
+	width: 100px;
+	height: 40px;
+	background: skyblue;
+	border: 1px;
+	position: absolute;
+	left: 380px;
+	top: 410px;
+	border-radius: 10px
+}
+
+.b {
+	width: 100px;
+	height: 40px;
+	color: white;
+	background: black;
+	border: 1px;
+	position: absolute;
+	left: 490px;
+	top: 410px;
+	border-radius: 10px;
+}
+
+.sc {
+	overflow: scroll;
+}
+ * {
+	box-sizing: border-box;
+} 

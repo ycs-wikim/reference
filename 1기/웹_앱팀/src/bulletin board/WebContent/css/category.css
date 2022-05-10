@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+    margin:0; 
+	padding:0; 
+	list-style:none; 
+	font-family:"malgun gothic"; 
+	box-sizing:border-box; 
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+/*전체 틀*/ 
+.mainMenu{ 
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.item{
+    border-top: 1px solid #b6e2e9;
+    overflow: hidden;
+   
+}
+/*버튼 틀*/
+.btnC {
+    display: block;
+    padding: 15px 20px;
+    background-color:  #b6e2e9;
+    
+    color: #fff;
+    position: relative;
+
+}
+/*작은 화살표*/
+.btnC:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right:8px solid transparent;
+    border-top:10px solid #b6e2e9;
+    right: 15px;
+    bottom: -10px;
+    z-index: 9;
+    
+}
+.btnC i {
+    margin-right: 10px;
+    background-color:  black;
+}
+/*안에 서브 메뉴*/
+.subMenu{
+    background: #273057;
+    overflow: hidden;
+    transition: max-height 0.7s;
+    max-height: 0;
+}
+/*서브 메뉴 안에 글씨*/
+.subMenu a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    border-bottom: 1px solid #ffff; /* 서브메뉴 블럭 영역을 나누는 맨 밑에 색상 */
+    position: relative;
+    
+}
+.subMenu a:before{
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s;
+    
+
+}
+
+.subMenu a:after{
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+
+/* 마우스를 위에 올렸을 때 보이는 색상*/
+.subMenu a:hover{
+    background: #273057;
+    background: -moz-linear-gradient(top, #273057 0%, #273057 50%, #394c7f 51%, #394c7f 100%);
+    background: -webkit-linear-gradient(top, #273057 0%,#273057 50%,#394c7f 51%,#394c7f 100%);
+    background: linear-gradient(to bottom, #273057 0%,#273057 50%,#394c7f 51%,#394c7f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273057', endColorstr='#394c7f',GradientType=0 );
+    transition: all 0.3s;
+    border-bottom: 1px solid #394c7f;
+}
+.subMenu a:last-child{
+    border:none;
+}
+.item:target .subMenu{
+    max-height: 10em;
+}
+

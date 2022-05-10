@@ -1,0 +1,55 @@
+파일명 작성시 한글과 띄어쓰기쓰면 뭐가 안될수도 있으니 파일작성시 영문으로 작성해주세요
+git restore시에 띄어쓰기가 안들어감 ㅎㅎ
+
+조장
+조원들이 만들어놓은 브렌치를 가져올때
+git remote update		// 조원들이 만든 브렌치가 뜸
+git checkout 메인브랜치 	// 메인브렌치로 이동
+git merge ***
+ - 내가 만든 브렌치일때 *** = 브렌치명
+ - 다른 조원이 만든 브렌치일때 *** = origin / 브렌치명
+
+병합을 끝내고 깃 상태를 확인하고 다시 올려줘야함
+git status
+git commit -m "쓰고 싶은 말" ; git push 
+
+!!! 내가 잘못 저장했을 때 최근에 저장한 지점으로 복구 하는 법 !!!
+	git restore "망한 파일명.확장명" 
+
+조원
+브렌치 만들고 (git checkout -b 브렌치명)
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push --set-upstream origin 브렌치명
+git checkout 메인브렌치명 // 을 치고 나옴
+git pull로 당겨옴
+
+깃 커밋 취소, 커밋 되돌리기, 덮어쓰기
+git log --oneline
+git reset --hard 커밋번호
+바로 이전 커밋 상태로 되돌릴 때, 커밋 아이디를 정확히 지정하는 대신
+HEAD^, HEAD@{1}, HEAD~1과 같은 표현을 사용할 수도 있습니다.
+단, 이 경우 반드시 바로 직전에 커밋을 하고 되돌릴 때만 
+의도한대로 동작하기 때문에 사용에 주의가 필요합니다
+$ git reset --hard HEAD^
+
+되돌리기
+git revert 커밋번호
+조장이 합쳐준 뒤
+
+커밋의 내용을 덮어쓸 때는 git commit의 amend 옵션을 사용합니다.
+수정할 내용을 스테이징에 반영하고 다음 명령어를 실행해줍니다.
+
+$ git commit --amend
+
+브렌치 병합 이후에
+다른 파일을 업로드 하고 싶을때
+git checkout 내브렌치명// 내 브렌치로 들어와서
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push --set-upstream origin 브렌치명을 다시 친다!
+
+master에서 파일을 수정하고 업로드 할 경우
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push 만 입력하면 된다!

@@ -1,0 +1,53 @@
+.mainbatch1 {
+	display: inline-flex;
+	float: left;
+	justify-content: center;
+	
+	padding-left: auto;
+	padding-right: auto;
+}
+
+	.asd {
+	max-width: 100px;
+	min-width: 250px;
+	}
+
+@media (min-width: 800px)
+{
+	.mainbatch1 {
+		margin-left: 40px;
+	}
+	
+	.asd {
+		max-width: 100px;
+		min-width: 250px;
+	}
+}
+
+@media (min-width: 960px)
+{
+	.mainbatch1 {
+		margin-left: 50px;
+	}
+	
+	.asd {
+		max-width: 100px;
+		min-width: 250px;
+	}
+}
+
+@media (min-width: 1280px)
+{
+	.mainbatch1 {
+		margin-left: 384px;
+	}
+	
+	.asd {
+		max-width: 100px;
+		min-width: 250px;
+	}
+}
+.mainbatch2 {
+	display: flex;
+	border:0px;
+}

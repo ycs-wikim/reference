@@ -1,0 +1,14 @@
+.sort-block {
+	display: block;
+}
+
+.sort-main {
+	display: inline-flex;
+	flex-direction: row;
+	padding-top: 48px;
+}
+
+body {
+	display:flex;
+	justify-content: center;
+}

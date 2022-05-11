@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GB_moudle">
+      <UniqueIdentifier>{b6789f63-f395-40d8-ba75-2a1e03cc9b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GB_moudle\Image">
+      <UniqueIdentifier>{753cd8d7-9826-4c21-badd-1873fb0b21a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestBook_Editor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_Button.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_data.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_FIle_io.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_moudles.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_palette.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_Sscreen_Save.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GB_moudle\GB_Image.h">
+      <Filter>GB_moudle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GuestBook_Editor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB_Button.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB_File_io.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB_Palette.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB_Sscreen_Save.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GB_moudle\GB_Image.cpp">
+      <Filter>GB_moudle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GuestBook_Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuestBook_Editor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Image\Serve_logo.bmp">
+      <Filter>GB_moudle\Image</Filter>
+    </Image>
+    <Image Include="..\..\Image\Main_logo.bmp">
+      <Filter>GB_moudle\Image</Filter>
+    </Image>
+    <Image Include="..\..\Image\logo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

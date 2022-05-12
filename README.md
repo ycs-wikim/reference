@@ -68,7 +68,7 @@
 | 미로게임 | 게임 | [ycs-202007005/Maze_Game](https://github.com/ycs-202007005/Maze_Game) |
 | 탄막 슈팅게임 | 게임 | [ycs-202007005/Ref_Shooting_Game](https://github.com/ycs-202007005/Ref_Shooting_Game) |
 | TCP프로토콜을 이용한</br> 채팅 프로그램 | 네트워크 | [ycs-202007064/reference_network_0](https://github.com/ycs-202007064/reference_network_0) |
-| 웹사이트 | 웹 앱 | []() |
+| JSP를 사용한 웹사이트 | 웹 앱 | [ycs-201607083/web-reference](https://github.com/ycs-201607083/web-reference) |
 | 미로게임 | 인공지능 | [ckdduf138/Maze](https://github.com/ckdduf138/Maze) |
 
 </ol>

@@ -67,7 +67,7 @@
 | 후킹을 이용한 게임 | OS </br> 보안팀 | [yuhan-os-security/Journaling_game](https://github.com/yuhan-os-security/Journaling_game) |
 | 미로게임 | 게임 | [ycs-202007005/Maze_Game](https://github.com/ycs-202007005/Maze_Game) |
 | 탄막 슈팅게임 | 게임 | [ycs-202007005/Ref_Shooting_Game](https://github.com/ycs-202007005/Ref_Shooting_Game) |
-| TCP프로토콜을 이용한 채팅 프로그램 | 네트워크 | [ycs-202007064/reference_network_0](https://github.com/ycs-202007064/reference_network_0) |
+| TCP프로토콜을 이용한</br> 채팅 프로그램 | 네트워크 | [ycs-202007064/reference_network_0](https://github.com/ycs-202007064/reference_network_0) |
 | 웹사이트 | 웹 앱 | []() |
 | 미로게임 | 인공지능 | [ckdduf138/Maze](https://github.com/ckdduf138/Maze) |
 

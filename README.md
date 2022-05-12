@@ -40,7 +40,7 @@
 <li>발표자료</li>
 
 | 제목 | 팀 |
-| :---: | :---: |
+| :--- | :---: |
 | window Internals 1장 | OS 팀 |
 | window Internals 2장 | OS 팀 |
 | API | 게임팀 |
@@ -61,11 +61,12 @@
 
 | 제목 | 팀 | 링크|
 | :---: | :---: | :---: |
-| 후킹을 이용한 게임 | OS 팀 </br> 보안팀 | []() |
+| 방명록 | 레퍼런스 | [poro912/guest_book(최종)](https://github.com/poro912/guest_book) </br> [poro912/guest_book(협업)](https://github.com/poro912/yuhan_guest_book/network) |
+| 후킹을 이용한 게임 | OS 팀 </br> 보안팀 | [yuhan-os-security/Journaling_game](https://github.com/yuhan-os-security/Journaling_game) |
 | 미로게임 | 게임팀 | [ycs-202007005/Maze_Game](https://github.com/ycs-202007005/Maze_Game) |
 | 탄막 슈팅게임 | 게임 팀 | [ycs-202007005/Ref_Shooting_Game](https://github.com/ycs-202007005/Ref_Shooting_Game) |
-| TCP프로토콜을 이용한 채팅 프로그램 | 네트워크 팀 | []() |
+| TCP프로토콜을 이용한 채팅 프로그램 | 네트워크 팀 | [ycs-202007064/reference_network_0](https://github.com/ycs-202007064/reference_network_0) |
 | 웹사이트 | 웹 앱팀 | []() |
-| 미로게임 | 인공지능 팀 | []() |
+| 미로게임 | 인공지능 팀 | [ckdduf138/Maze](https://github.com/ckdduf138/Maze) |
 
 </ol>

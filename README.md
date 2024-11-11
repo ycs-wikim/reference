@@ -29,7 +29,7 @@
 
 | 제목 | 팀 | 링크 |
 | :---: | :---: | :---: |
-| 방명록 | 레퍼런스 | [<a href="http://github.com/semicolon213/2024_GuestBook_T1">semicolon213/2024_GuestBook_T1(최종)</a>] </br> [<a href="[http://github.com/semicolon213/2024_GuestBook_T1](https://github.com/semicolon213/2024_GuestBook_T1/network)">semicolon213/2024_GuestBook_T1(협업)</a>] |
+| 방명록 | 레퍼런스 | [<a href="http://github.com/semicolon213/2024_GuestBook_T1">semicolon213/2024_GuestBook_T1(최종)</a>] </br> [<a href="https://github.com/semicolon213/2024_GuestBook_T1/network">semicolon213/2024_GuestBook_T1(협업)</a>] |
 
 
 </ol>

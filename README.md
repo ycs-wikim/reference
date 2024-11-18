@@ -1,3 +1,39 @@
+# 4기 (2024년)
+
+| 회장 | 김형균 |
+| :---: | :---: |
+| 회원 | 김주환, 김용빈, 전성호, 윤찬솔, 장환희, 조재현, 김수길, 최가은, 오승호, 임지섭, 용지순 |
+| 팀 | 클라이언트, 서버 | 
+
+### 활동
+<ol>
+<li>GitHub 사용설명서</li>
+
+| 제목 | 제작자 |
+| :--- | :---: |
+| Repository Settings | 김용빈, 오승호 |
+| Private Setting | 용지순 |
+| Code | 최가은 |
+| PRojects | 김수길 |
+| Actions | 김주환 |
+| Insight 1장 | 윤찬솔 |
+| Instght 2장 | 장환희 |
+| Issue | 조재현 |
+| Pull Requests | 김형균 |
+| Security | 전성호 |
+| Wiki | 오승호 |
+
+<br/>
+
+<li>프로젝트</li>
+
+| 제목 | 팀 | 링크 |
+| :---: | :---: | :---: |
+| 방명록 | 레퍼런스 | [<a href="http://github.com/semicolon213/2024_GuestBook_T1">semicolon213/2024_GuestBook_T1(최종)</a>] </br> [<a href="https://github.com/semicolon213/2024_GuestBook_T1/network">semicolon213/2024_GuestBook_T1(협업)</a>] |
+
+
+</ol>
+
 # 3기 (2023년)
 
 | 회장 | 김명준 |
